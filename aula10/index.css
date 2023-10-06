@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#menu {
+    height: 75px;
+    width: 100%;
+    background-color: beige;
+}
+
+#logo {
+    
+    width: 72px;
+    height: 72px;
+}
+
+#titulo {
+    display: inline-block;
+    font-size: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: chocolate;
+    position: relative;
+    width: calc(100% - 72px);
+    text-align: center;
+    top: -77px;
+}
+
+#secao1 {
+    background-image: url(fundo1.jpg);
+    height: 500px;
+    background-size: cover;
+    
+}
+
+#conteudo1{
+    font-size: 79px;
+    color: white;
+    width: 50%;
+    padding: 17px;
+    line-height: 95px;
+}

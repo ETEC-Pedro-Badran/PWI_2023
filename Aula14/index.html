@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script>
+       function mostrar(mensagem) {
+           alert(mensagem);
+       }
+       function cumprimentar() {
+          alert("Boa noite "+prompt("Olá, qual seu nome?"));
+       }
+       // 1- crie 3 botoes, que exiba a letra A, o segundo a letra B e o terceiro a letra C
+       // em seguida crie uma funcao que vai exibir a mensagem dizendo: O botão "X" foi pressionado!
+       function opcao(letra) {
+        alert("O botão "+letra+" foi pressionado! ");
+       }
+       //  2- Peça O nome e o sobrenome da pessoa e mostre o nome completo em uma mensagem de alerta.
+       function nome() {
+          alert("Boa noite "+prompt("Olá, qual seu primeiro nome?")+" "+prompt("Olá, qual seu segundo nome?"));
+       }
+    </script>    
+</head>
+<body>
+    <button onclick="alert('Fui clicado!')">Clique aqui!</button>
+    <button onclick="mostrar('Estou mostrando!')">Mostrar</button>
+    <button onclick="mostrar('Outra mensagem!')">Outra</button>
+    <button onclick="cumprimentar()">Cumprimenta</button>
+    <br><h1>Exercício 1</h1>
+    <button onclick="opcao('A')">A</button>
+    <button onclick="opcao('B')">B</button>    
+    <button onclick="opcao('C')">C</button>    
+    <br><h1>Exercício 2</h1>
+    <button onclick="nome()">Nome e sobrenome</button>
+</body>
+</html>
