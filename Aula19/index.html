@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link href="index.css" rel="stylesheet">
-    <script src="index.js"></script>
+    
 </head>
 <body>
 
     <div class="container">
-
-          <form>
+        <h3>Entre com suas credenciais</h3>
+          <form id="formulario" method="POST">
             <div>
               <label for="email">E-mail</label>
-              <input type="email" name="email" placeholder="Digite seu email">  
+              <input type="email" name="email" id="email" placeholder="Digite seu email">  
             </div> 
             <div>
               <label for="senha">Senha</label>
-              <input type="password" name="senha" placeholder="Digite a senha"> 
+              <input type="password" name="senha" id="senha" placeholder="Digite a senha"> 
             </div>
             <div>
               <input type="submit" value="Entrar">
@@ -28,6 +28,6 @@
 
     </div>    
 
-
+    <script src="index.js"></script>
 </body>
 </html>
